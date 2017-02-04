@@ -1,11 +1,20 @@
 What happens when you initialize a repository? Why do you need to do it?
+  You create a repository that contains whatever files currently exist in your
+  directory. This is created so that you can now begin to track the different
+  changes you make to your files.
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+  The staging area gives the developer a chance to add or subtract files before
+  making the commit. He/She might change their minds about what they want to
+  include as they work.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
-
+  You can compare your changes between the working directory and the staging
+  area to see the differences, if there are any. Then you have the option of
+  adding or removing files from the staging area before committing.
+  
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
