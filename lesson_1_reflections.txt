@@ -1,0 +1,50 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    By using diff, the ‘+++’ indicated the new material that had been added, and
+    was therefore a shortcut to finding the bug which we knew was a result of this
+    newly added material. 
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    As the program develops, it’s possible that I may go down a path that leads
+    nowhere, and without the ability to look back at previous versions I’d be
+    unable to find my way back to the point of departure that led to this impasse.
+    Having access to previous versions encourages experimentation and risk-taking
+    because you can always stop and return to a version that can be the point of
+    departure for another course of action.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+Docs does?
+
+	The pros of manually creating a commit would be that the commits are logical
+  rather than random, and that each commit will bear significant and easily found
+  changes. The con to manually creating a commit is that the programmer may not
+  remember to create them.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+	This is probably due to software and webpage programs incorporating multiple
+  files, while word processing is usually dealing with a single file. There is
+  no interaction of files, in other words.
+
+How can you use the commands git log and git diff to view the history of files?
+
+	‘git log’ gives you the complete list of Commits within a repository, while
+  ‘git diff’ compares the changes that occurred between selected files.
+
+How might using version control make you more confident to make changes that could
+break something?
+
+	By working in ‘detached HEAD’ mode, you can make changes and store them in
+  another branch, thereby not affecting other versions.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+	I’m not sure yet. I haven’t any versions of anything to compare. Wait… that’s
+  not true. I can git log this file to track the version history, since I’ve been
+  continuously adding to this file over the course of this lesson. I can also
+  experiment with ‘git diff’.
