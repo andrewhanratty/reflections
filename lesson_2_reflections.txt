@@ -21,8 +21,11 @@ organized? How would branches help?
   keeping the current code and functionality intact. You can also later merge
   branches so that all of the tested improvements you make can be applied
   to create a new Master branch.
-  
+
 How do the diagrams help you visualize the branch structure?
+  Since the structure can get pretty complex over time, these diagrams help
+  you to see when branches were created and from which branch they initially
+  spawned.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
