@@ -14,14 +14,18 @@ change?
   You can compare your changes between the working directory and the staging
   area to see the differences, if there are any. Then you have the option of
   adding or removing files from the staging area before committing.
-  
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
-
+  Branches are helpful when you want to experiment with the project while
+  keeping the current code and functionality intact. You can also later merge
+  branches so that all of the tested improvements you make can be applied
+  to create a new Master branch.
+  
 How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
-What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
+What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
