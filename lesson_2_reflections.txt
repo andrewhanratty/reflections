@@ -33,7 +33,8 @@ the diagram the way we do?
   combines them into one updated branch. This appears as a new branch now,
   although it may be labeled with the same name as a previous branch (such as
   'Master'). 'git log' will show all of the commits from both previous branches,
-  so now you can delete the unused branch.
-  
+  so now you can delete the unused branch. Check out the result of the merge
+  before deleting the branch though.
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
