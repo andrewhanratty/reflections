@@ -5,12 +5,18 @@ local?
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    Because you may not be ready to publish. By manually pushing, you ensure that
+    what is shared is material you're ready to share.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+    A branch is initially a copy of repository that you intend to alter and
+    experiment with with the hope of later merging with the Master or some other
+    branch. Cloning just copies an existing repository that you may or may not
+    wish to add to and create as your own. Forking is basically cloning, but
+    performed within Github as a shortcut so that you don't have to go through
+    the process of creating a remote. 
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
