@@ -16,12 +16,13 @@ use one instead of another?
     branch. Cloning just copies an existing repository that you may or may not
     wish to add to and create as your own. Forking is basically cloning, but
     performed within Github as a shortcut so that you don't have to go through
-    the process of creating a remote. 
+    the process of creating a remote.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    This way, if you stop working for a while, you can easily track all of the
+    changes to the remote that were made while you were offline.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
